@@ -1,0 +1,2 @@
+# 70maiGPX
+70mai DashcamのGPSData000001.txtファイルをGPX形式に変換するプログラム

@@ -1,2 +1,2 @@
 # 70maiGPX
-70mai DashcamのGPSData000001.txtファイルをGPX形式に変換するプログラム
+70mai Dash Cam Pro Plus+ A500SのGPSData000001.txtファイルをGPX形式に変換するプログラム

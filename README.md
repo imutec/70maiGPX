@@ -3,8 +3,8 @@
 
 ## 実行方法
 
-70mai.exe &lt;gpx_file>
+70mai.exe GPSData000001.txt
 
 or
 
-70mai.exeにgpxファイルをドロップ
+70mai.exeにGPSData000001.txtをドロップ

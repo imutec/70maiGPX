@@ -3,7 +3,7 @@
 
 ## 実行方法
 
-70mai.exe GPSData000001.txt
+`70mai.exe GPSData000001.txt`
 
 or
 

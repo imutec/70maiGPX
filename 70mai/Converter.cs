@@ -60,6 +60,7 @@ namespace _70mai
                             if ((latitude == "0.000000") || (longitude == "0.000000"))
                             {
                                 Console.WriteLine("Skip lat 0.000000, lon 0.000000");
+                                continue;
                             }
 
                             var timestamp = long.Parse(unixTimestamp) + adjust + (long)tzLocal.BaseUtcOffset.TotalSeconds;

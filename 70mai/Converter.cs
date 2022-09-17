@@ -57,6 +57,11 @@ namespace _70mai
                             var latitude      = fields[2]; //緯度
                             var longitude     = fields[3]; //経度
                             
+                            if ((latitude == "0.000000") || (longitude == "0.000000"))
+                            {
+                                Console.WriteLine("Skip lat 0.000000, lon 0.000000");
+                            }
+
                             var timestamp = long.Parse(unixTimestamp) + adjust + (long)tzLocal.BaseUtcOffset.TotalSeconds;
 
                             var offsetdt = DateTimeOffset.FromUnixTimeSeconds(timestamp);
